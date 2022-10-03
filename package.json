@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Apollo - Prisma POC",
   "author": "Chalo Salvador",
+  "license": "ISC",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node-dev --no-notify --respawn --transpile-only src/server",
