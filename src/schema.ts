@@ -103,7 +103,8 @@ export const resolvers = {
         price: number;
         published: boolean;
         category: Category;
-      }
+      },
+      context: Context
     ) => {
       return context.prisma.product.create({
         data: {

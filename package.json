@@ -10,7 +10,8 @@
     "start": "ts-node src/server"
   },
   "prisma": {
-    "seed": "ts-node prisma/seed.ts"
+    "seed": "ts-node src/prisma/seed.ts",
+    "schema": "src/prisma/schema.prisma"
   },
   "dependencies": {
     "@prisma/client": "^4.4.0",
